@@ -61,10 +61,9 @@ docker run -it --rm `
   -e IMPORT_STYLE=extratags `
   -p 8080:8080 `
   -v nominatim-data:/var/lib/postgresql/14/main `
-  -v nominatim-flatnode:/nominatim/flatnode `
   -v /osm-maps/extras:/nominatim/extras `
   --name nominatim `
-  mediagis/nominatim:4.3
+  mediagis/nominatim:4.4
 ```
 
 Explicación:
@@ -137,10 +136,9 @@ docker run -it --rm `
   -e IMPORT_STYLE=extratags `
   -p 8080:8080 `
   -v nominatim-data:/var/lib/postgresql/14/main `
-  -v nominatim-flatnode:/nominatim/flatnode `
   -v /osm-maps/extras:/nominatim/extras `
   --name nominatim `
-  mediagis/nominatim:4.3
+  mediagis/nominatim:4.4
 ```
 
 Explanation:
