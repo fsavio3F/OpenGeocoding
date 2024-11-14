@@ -62,6 +62,7 @@ docker run -it --rm `
   -p 8080:8080 `
   -v nominatim-data:/var/lib/postgresql/14/main `
   -v /osm-maps/extras:/nominatim/extras `
+  -v nominatim-flatnode:/nominatim/flatnode `
   --name nominatim `
   mediagis/nominatim:4.4
 ```
@@ -137,6 +138,7 @@ docker run -it --rm `
   -p 8080:8080 `
   -v nominatim-data:/var/lib/postgresql/14/main `
   -v /osm-maps/extras:/nominatim/extras `
+  -v nominatim-flatnode:/nominatim/flatnode `
   --name nominatim `
   mediagis/nominatim:4.4
 ```
