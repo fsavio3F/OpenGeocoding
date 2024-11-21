@@ -73,8 +73,6 @@ Explicación:
 
 - _-it_: especificar que el contenedor debe ejecutarse de forma interactiva en la consola
 
-- _--rm_: especificar que el contenedor debe ser eliminado automáticamente al terminar
-
 - _-e_: crear un objeto en el ambiente
 
   - _PBF_URL_: URL al archivo PBF de OpenStreetMap para Argentina
@@ -148,8 +146,6 @@ Explanation:
 - _docker run_: basic command to create and run a new container
 
 - _-it_: specify that the container should run interactively in the console
-
-- _--rm_: specify that the container should be automatically removed when finished
 
 - _-e_: create an object in the environment
 
