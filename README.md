@@ -60,11 +60,11 @@ docker run -it `
   -e REPLICATION_URL=https://download.geofabrik.de/south-america/argentina-updates/ `
   -e IMPORT_STYLE=extratags `
   -p 8080:8080 `
-  -v nominatim-data:/var/lib/postgresql/14/main `
+  -v nominatim-data:/var/lib/postgresql/16/main `
   -v /osm-maps/extras:/nominatim/extras `
   -v nominatim-flatnode:/nominatim/flatnode `
   --name nominatim `
-  mediagis/nominatim:4.5
+  mediagis/nominatim:5.1
 ```
 
 Explicación:
@@ -134,11 +134,11 @@ docker run -it `
   -e REPLICATION_URL=https://download.geofabrik.de/south-america/argentina-updates/ `
   -e IMPORT_STYLE=extratags `
   -p 8080:8080 `
-  -v nominatim-data:/var/lib/postgresql/14/main `
+  -v nominatim-data:/var/lib/postgresql/16/main `
   -v /osm-maps/extras:/nominatim/extras `
   -v nominatim-flatnode:/nominatim/flatnode `
   --name nominatim `
-  mediagis/nominatim:4.5
+  mediagis/nominatim:5.1
 ```
 
 Explanation:
